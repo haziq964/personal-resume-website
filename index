@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUHAMMAD HAZIQ RIDHWAN BIN MOHAMAD AZRIN - Personal Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>MUHAMMAD HAZIQ RIDHWAN BIN MOHAMAD AZRIN</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About Me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#work">Work Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <img src="gambar passpot.jpg" alt="Your photo" class="profile-photo">
+            <p>Hi! I’m <strong>Haziq Ridhwan</strong>, an experienced diploma student of Information Management. Currently in semester 5 with a focus on Information Management and Information Technology!</p>
+            <p>Age: 20<br>Date of Birth: 14/01/2004<br>State of Origin: Melaka<br>No Matriks: 2023365027</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML & CSS</li>
+                <li>JavaScript</li>
+                <li>PHP</li>
+                <li>Adobe Premiere Pro</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="work">
+        <div class="container">
+            <h2>Work Experience</h2>
+            <div class="work-item">
+                <article>
+                    <h3>ECONSAVE</h3>
+                    <p><strong>Position:</strong> Crew Cleaning</p>
+                    <p>Responsible for cleaning various areas in the store to ensure a hygienic environment.</p>
+                </article>
+
+                <article>
+                    <h3>KANTIN RELA</h3>
+                    <p><strong>Position:</strong> Crew Kitchen</p>
+                    <p>Prepared meals for employees, handled VIP bookings, and managed meal preparations for up to 5 meals per day.</p>
+                </article>
+
+                <article>
+                    <h3>MARRYBROWN</h3>
+                    <p><strong>Position:</strong> Crew Kitchen</p>
+                    <p>Worked in multiple roles, including kitchen crew, cashier, and floor crew, providing excellent customer service and food preparation.</p>
+                </article>
+
+                <article>
+                    <h3>PUTRA SPECIALIST HOSPITAL</h3>
+                    <p><strong>Position:</strong> Crew EMR/MRD</p>
+                    <p>Managing physical medical records, such as storing, sorting, and retrieving patient files and •	Supporting the transition from paper to digital, which involves scanning documents and uploading them to the EMR system.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="education-item">
+                <h3>Pentaksiran Tingkatan Tiga (PT3)</h3>
+                <p>SMK Kem Terendak, Melaka - 2017-2022</p>
+                
+                <h3>Sijil Pelajaran Malaysia (SPM)</h3>
+                <p>SMK Kem Terendak, Melaka - 2017-2022</p>
+                
+                <h3>Diploma in Information Management</h3>
+                <p>Universiti Teknologi Mara (UiTM), Segamat Campus - March 2023 - August 2025</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:hz319433@gmail.com">hz319433@gmail.com</a></p>
+            <p>Contact: 017-677-9525</p>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MUHAMMAD HAZIQ RIDHWAN BIN MOHAMAD AZRIN | Designed by You</p>
+        </div>
+    </footer>
+</body>
+</html>
