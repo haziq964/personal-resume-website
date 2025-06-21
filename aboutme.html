@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>About Me</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="biodata.html">Biodata</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="myspace.html">My Space</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="educations.html">Educations</a></li>
+                    <li><a href="favouritemusic.html">Favourite Music</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+ <section id="about-me">
+    <div class="container">
+        <h2>Introduction</h2>
+        <div class="profile">
+            <img src="aqil umah.jpg" alt="Profile Picture" class="profile-image">
+            <p>Hello! I’m <strong>Haziq Ridhwan</strong>, an experienced student of Information Management. Currently in my 5th semester, specializing in IT and management.</p>
+            <p>My goal is to contribute to the field of technology and management, combining my passion for IT with business insights.</p>
+        </div>
+
+        <!-- Skills -->
+        <div class="skills">
+            <h3>Skills & Expertise</h3>
+            <ul>
+                <li>Information Technology</li>
+                <li>Data Analysis</li>
+                <li>Project Management</li>
+            </ul>
+        </div>
+
+        <!-- Personal Motto -->
+        <div class="motto">
+            <h3>My Motto</h3>
+            <p>"The best way to predict the future is to create it." – Abraham Lincoln</p>
+        </div>
+        </div>
+    </div>
+</section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MUHAMMAD HAZIQ RIDHWAN</p>
+            <p id="clock"></p>
+        </div>
+    </footer>
+
+    <script>
+        setInterval(function() {
+            const now = new Date();
+            document.getElementById("clock").textContent = now.toLocaleTimeString();
+        }, 1000);
+    </script>
+</body>
+</html>

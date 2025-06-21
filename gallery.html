@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <div class="container">
+            <h1>My Gallery Space</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="biodata.html">Biodata</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                     <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="myspace.html">My Space</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="educations.html">Educations</a></li>
+                    <li><a href="favouritemusic.html">Favourite Music</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Gallery Section -->
+   <section id="gallery">
+    <div class="container">
+        <h2>My Gallery Space</h2>
+        <div class="gallery-container">
+            <div class="gallery-item">
+                <img src="proton.jpg" alt="Gallery Image 1">
+            </div>
+            <div class="gallery-item">
+                <img src="miror.jpg" alt="Gallery Image 2">
+            </div>
+            <div class="gallery-item">
+                <img src="motor.jpg" alt="Gallery Image 3">
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Laolao Image Section -->
+    <section id="laolao-image">
+        <div class="container">
+            <h2>Laolao Ice Cream</h2>
+            <p>Tekan aiskrim ke Instagram / Tekan Tangan  Ke Website</p>
+            </div>
+            <img src="laolao.jpg" alt="Laolao Ice Cream" usemap="#laolao-image-map" class="interactive-image">
+            <map name="laolao-image-map">
+                <area shape="rect" coords="420,208,960,1280" alt="Ice Cream Area" href="https://www.llaollaoweb.com/en/" title="Click to visit Laolao website" />
+                <area shape="circle" coords="358,515,587,745" alt="Chocolate Topping" href="https://www.instagram.com/llaollao_my/?hl=en" title="Click for Chocolate Topping Instagram" />
+            </map>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 MUHAMMAD HAZIQ RIDHWAN BIN MOHAMAD AZRIN</p>
+            <p id="clock"></p>
+        </div>
+    </footer>
+
+    <script>
+        setInterval(function() {
+            const now = new Date();
+            document.getElementById("clock").textContent = now.toLocaleTimeString();
+        }, 1000);
+    </script>
+</body>
+</html>
